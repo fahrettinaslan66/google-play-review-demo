@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tv generator-info-name="Synthetic Google Play Review Demo">
-  <channel id="demo.science"><display-name>Demo Science TV</display-name></channel>
-  <channel id="demo.nature"><display-name>Demo Nature TV</display-name></channel>
-  <programme start="20260920000000 +0000" stop="20270920000000 +0000" channel="demo.science"><title>Science Demo Programme</title><desc>Synthetic programme metadata for application review.</desc></programme>
-  <programme start="20260920000000 +0000" stop="20270920000000 +0000" channel="demo.nature"><title>Nature Demo Programme</title><desc>Synthetic programme metadata for application review.</desc></programme>
+  <channel id="demo.science">
+    <display-name>Demo Science TV</display-name>
+    <icon src="https://raw.githubusercontent.com/fahrettinaslan66/google-play-review-demo/main/assets/demo_science_logo.jpg"/>
+  </channel>
+  <channel id="demo.nature">
+    <display-name>Demo Nature TV</display-name>
+    <icon src="https://raw.githubusercontent.com/fahrettinaslan66/google-play-review-demo/main/assets/demo_nature_logo.jpg"/>
+  </channel>
+  <programme start="20260101000000 +0000" stop="20271231235959 +0000" channel="demo.science">
+    <title>Science Demo Programme</title>
+    <desc>Synthetic programme used only to test EPG and playback interfaces.</desc>
+  </programme>
+  <programme start="20260101000000 +0000" stop="20271231235959 +0000" channel="demo.nature">
+    <title>Nature Demo Programme</title>
+    <desc>Synthetic programme used only to test EPG and playback interfaces.</desc>
+  </programme>
 </tv>
