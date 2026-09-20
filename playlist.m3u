@@ -1,0 +1,15 @@
+#EXTM3U url-tvg="https://raw.githubusercontent.com/fahrettinaslan66/google-play-review-demo/main/guide.xml"
+#EXTINF:-1 tvg-id="demo.science" tvg-name="Demo Science TV" group-title="Live TV",Demo Science TV
+https://raw.githubusercontent.com/fahrettinaslan66/google-play-review-demo/main/media/live/demo_science.mp4
+#EXTINF:-1 tvg-id="demo.nature" tvg-name="Demo Nature TV" group-title="Live TV",Demo Nature TV
+https://raw.githubusercontent.com/fahrettinaslan66/google-play-review-demo/main/media/live/demo_nature.mp4
+#EXTINF:-1 tvg-id="movie.orbit" tvg-name="Orbit" group-title="Movies",Orbit (Demo Movie)
+https://raw.githubusercontent.com/fahrettinaslan66/google-play-review-demo/main/media/movies/orbit.mp4
+#EXTINF:-1 tvg-id="movie.signal" tvg-name="Signal" group-title="Movies",Signal (Demo Movie)
+https://raw.githubusercontent.com/fahrettinaslan66/google-play-review-demo/main/media/movies/signal.mp4
+#EXTINF:-1 tvg-id="horizon.s01e01" tvg-name="Horizon S01E01" group-title="Series | Horizon | Season 1",Horizon - S01E01
+https://raw.githubusercontent.com/fahrettinaslan66/google-play-review-demo/main/media/series/horizon_s01e01.mp4
+#EXTINF:-1 tvg-id="horizon.s01e02" tvg-name="Horizon S01E02" group-title="Series | Horizon | Season 1",Horizon - S01E02
+https://raw.githubusercontent.com/fahrettinaslan66/google-play-review-demo/main/media/series/horizon_s01e02.mp4
+#EXTINF:-1 tvg-id="horizon.s01e03" tvg-name="Horizon S01E03" group-title="Series | Horizon | Season 1",Horizon - S01E03
+https://raw.githubusercontent.com/fahrettinaslan66/google-play-review-demo/main/media/series/horizon_s01e03.mp4
