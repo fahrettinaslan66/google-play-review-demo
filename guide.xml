@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tv generator-info-name="Synthetic Google Play Review Demo">
+  <channel id="demo.science"><display-name>Demo Science TV</display-name></channel>
+  <channel id="demo.nature"><display-name>Demo Nature TV</display-name></channel>
+  <programme start="20260920000000 +0000" stop="20270920000000 +0000" channel="demo.science"><title>Science Demo Programme</title><desc>Synthetic programme metadata for application review.</desc></programme>
+  <programme start="20260920000000 +0000" stop="20270920000000 +0000" channel="demo.nature"><title>Nature Demo Programme</title><desc>Synthetic programme metadata for application review.</desc></programme>
+</tv>
