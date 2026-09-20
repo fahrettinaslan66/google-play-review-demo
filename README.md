@@ -3,12 +3,13 @@
 This repository contains synthetic audiovisual test media created specifically for software testing and Google Play application review.
 
 Contents:
-- 2 synthetic HLS live-style test channels
+- 2 synthetic live-TV-style test entries
 - 2 synthetic demo movies
 - 1 synthetic demo series with 3 episodes
 - XMLTV demo EPG data
-- Synthetic logos/posters
 - `playlist.m3u` for reviewer testing
+
+The same internally generated placeholder video is reused under multiple demo titles so reviewers can test Live TV, Movies, and Series navigation without any third-party content.
 
 No third-party television streams, movie/series clips, broadcaster logos, music, or third-party footage are included.
 
@@ -19,3 +20,5 @@ No third-party television streams, movie/series clips, broadcaster logos, music,
 ## Demo EPG
 
 `https://raw.githubusercontent.com/fahrettinaslan66/google-play-review-demo/main/guide.xml`
+
+See `RIGHTS.md` for the review-use rights statement.
