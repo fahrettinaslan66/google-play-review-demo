@@ -1,15 +1,27 @@
 #EXTM3U url-tvg="https://raw.githubusercontent.com/fahrettinaslan66/google-play-review-demo/main/guide.xml"
-#EXTINF:-1 tvg-id="demo.science" tvg-name="Demo Science TV" group-title="Live TV",Demo Science TV
+
+# ===== LIVE TV =====
+#EXTINF:-1 tvg-id="demo.science" tvg-name="Demo Science TV" tvg-logo="https://raw.githubusercontent.com/fahrettinaslan66/google-play-review-demo/main/assets/demo_science_logo.jpg" group-title="Live TV" content-type="live",Demo Science TV
 https://raw.githubusercontent.com/fahrettinaslan66/google-play-review-demo/main/media/live/demo_science.mp4
-#EXTINF:-1 tvg-id="demo.nature" tvg-name="Demo Nature TV" group-title="Live TV",Demo Nature TV
+#EXTINF:-1 tvg-id="demo.nature" tvg-name="Demo Nature TV" tvg-logo="https://raw.githubusercontent.com/fahrettinaslan66/google-play-review-demo/main/assets/demo_nature_logo.jpg" group-title="Live TV" content-type="live",Demo Nature TV
 https://raw.githubusercontent.com/fahrettinaslan66/google-play-review-demo/main/media/live/demo_nature.mp4
-#EXTINF:-1 tvg-id="movie.orbit" tvg-name="Orbit" group-title="Movies",Orbit (Demo Movie)
+
+# ===== MOVIES =====
+#EXTINF:-1 tvg-id="movie.orbit" tvg-name="Orbit" tvg-logo="https://raw.githubusercontent.com/fahrettinaslan66/google-play-review-demo/main/assets/demo_poster.jpg" group-title="Movies" content-type="movie" featured="true",Orbit
 https://raw.githubusercontent.com/fahrettinaslan66/google-play-review-demo/main/media/movies/orbit.mp4
-#EXTINF:-1 tvg-id="movie.signal" tvg-name="Signal" group-title="Movies",Signal (Demo Movie)
+#EXTINF:-1 tvg-id="movie.signal" tvg-name="Signal" tvg-logo="https://raw.githubusercontent.com/fahrettinaslan66/google-play-review-demo/main/assets/demo_poster.jpg" group-title="Movies" content-type="movie" featured="true",Signal
 https://raw.githubusercontent.com/fahrettinaslan66/google-play-review-demo/main/media/movies/signal.mp4
-#EXTINF:-1 tvg-id="horizon.s01e01" tvg-name="Horizon S01E01" group-title="Series | Horizon | Season 1",Horizon - S01E01
+#EXTINF:-1 tvg-id="movie.afterlight" tvg-name="Afterlight" tvg-logo="https://raw.githubusercontent.com/fahrettinaslan66/google-play-review-demo/main/assets/demo_poster.jpg" group-title="Movies" content-type="movie",Afterlight
+https://raw.githubusercontent.com/fahrettinaslan66/google-play-review-demo/main/media/movies/afterlight.mp4
+
+# ===== SERIES =====
+#EXTINF:-1 tvg-id="horizon.s01e01" tvg-name="Horizon S01E01" tvg-logo="https://raw.githubusercontent.com/fahrettinaslan66/google-play-review-demo/main/assets/demo_poster.jpg" group-title="Series" content-type="series" series-name="Horizon" season-number="1" episode-number="1" featured="true",Horizon S01E01
 https://raw.githubusercontent.com/fahrettinaslan66/google-play-review-demo/main/media/series/horizon_s01e01.mp4
-#EXTINF:-1 tvg-id="horizon.s01e02" tvg-name="Horizon S01E02" group-title="Series | Horizon | Season 1",Horizon - S01E02
+#EXTINF:-1 tvg-id="horizon.s01e02" tvg-name="Horizon S01E02" tvg-logo="https://raw.githubusercontent.com/fahrettinaslan66/google-play-review-demo/main/assets/demo_poster.jpg" group-title="Series" content-type="series" series-name="Horizon" season-number="1" episode-number="2",Horizon S01E02
 https://raw.githubusercontent.com/fahrettinaslan66/google-play-review-demo/main/media/series/horizon_s01e02.mp4
-#EXTINF:-1 tvg-id="horizon.s01e03" tvg-name="Horizon S01E03" group-title="Series | Horizon | Season 1",Horizon - S01E03
+#EXTINF:-1 tvg-id="horizon.s01e03" tvg-name="Horizon S01E03" tvg-logo="https://raw.githubusercontent.com/fahrettinaslan66/google-play-review-demo/main/assets/demo_poster.jpg" group-title="Series" content-type="series" series-name="Horizon" season-number="1" episode-number="3",Horizon S01E03
 https://raw.githubusercontent.com/fahrettinaslan66/google-play-review-demo/main/media/series/horizon_s01e03.mp4
+#EXTINF:-1 tvg-id="novafiles.s01e01" tvg-name="Nova Files S01E01" tvg-logo="https://raw.githubusercontent.com/fahrettinaslan66/google-play-review-demo/main/assets/demo_poster.jpg" group-title="Series" content-type="series" series-name="Nova Files" season-number="1" episode-number="1" featured="true",Nova Files S01E01
+https://raw.githubusercontent.com/fahrettinaslan66/google-play-review-demo/main/media/series/nova_files_s01e01.mp4
+#EXTINF:-1 tvg-id="novafiles.s01e02" tvg-name="Nova Files S01E02" tvg-logo="https://raw.githubusercontent.com/fahrettinaslan66/google-play-review-demo/main/assets/demo_poster.jpg" group-title="Series" content-type="series" series-name="Nova Files" season-number="1" episode-number="2",Nova Files S01E02
+https://raw.githubusercontent.com/fahrettinaslan66/google-play-review-demo/main/media/series/nova_files_s01e02.mp4
