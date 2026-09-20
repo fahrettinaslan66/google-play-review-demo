@@ -1,24 +1,20 @@
 # Google Play Review Demo Media
 
-This repository contains synthetic audiovisual test media created specifically for software testing and Google Play application review.
-
-Contents:
-- 2 synthetic live-TV-style test entries
-- 2 synthetic demo movies
-- 1 synthetic demo series with 3 episodes
-- XMLTV demo EPG data
-- `playlist.m3u` for reviewer testing
-
-The same internally generated placeholder video is reused under multiple demo titles so reviewers can test Live TV, Movies, and Series navigation without any third-party content.
-
-No third-party television streams, movie/series clips, broadcaster logos, music, or third-party footage are included.
+This public repository is a synthetic test catalog created for software testing and Google Play application review.
 
 ## Reviewer playlist
 
 `https://raw.githubusercontent.com/fahrettinaslan66/google-play-review-demo/main/playlist.m3u`
 
-## Demo EPG
+The playlist contains:
+- 2 Live TV demo channels, each with a synthetic channel logo
+- 3 Movies with a synthetic poster
+- 2 Series (Horizon and Nova Files) with season/episode naming and a synthetic poster
+- 5 Series episodes in total
+- XMLTV EPG metadata for the Live TV section
 
-`https://raw.githubusercontent.com/fahrettinaslan66/google-play-review-demo/main/guide.xml`
+The M3U uses explicit `group-title="Live TV"`, `group-title="Movies"`, and `group-title="Series"` values. Movie and series items include `tvg-logo` poster URLs. Series items also include `series-name`, `season-number`, and `episode-number` metadata so compatible parsers can group episodes.
+
+All media, artwork and metadata are synthetic test content. No third-party broadcaster streams, film/series clips, copyrighted posters, logos or music are included.
 
 See `RIGHTS.md` for the review-use rights statement.
